@@ -16,7 +16,7 @@ const RootLayout = ({ children }: Props) => {
   return (
     <html lang='en'>
       <body>
-        <Provider session={}>
+        <Provider session={true}>
           <div className='main'>
             <div className='gradient' />
           </div>
